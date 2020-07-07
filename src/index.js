@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("create-task-form")
-  const submit = form.getElementsByTagName("input")[1]
+  const newForm = document.getElementById("create-task-form")
+  const submit = newForm.getElementsByTagName("input")[1]
   let tasks = document.getElementById("tasks")
 
   submit.addEventListener("click", function(event){
